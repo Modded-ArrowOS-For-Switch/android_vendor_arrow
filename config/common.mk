@@ -109,3 +109,15 @@ include vendor/arrow/config/props.mk
 
 # Sounds
 include vendor/arrow/config/sounds.mk
+
+
+# Baseline Nvidia framework enhancements
+# Includes support for:
+# 1) NvCPL / Application Profiles
+NV_ANDROID_FRAMEWORK_ENHANCEMENTS := true
+
+# Nvidia ShieldTech enhancements
+# Includes support for:
+# 1) NvAcessories (bluetooth only)
+# 2) Enhanced Input Device Filtering
+NV_ANDROID_SHIELDTECH_ENHANCEMENTS := true
